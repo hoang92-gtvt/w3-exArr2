@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm ký tự số</title>
+</head>
+<body>
+    <script>
+        let arr3 = [
+            [1, 2, 1, 24],
+            [8, 11, '9', 4],
+            [7, 0, 7, 27],
+            [7, 4, "18", 14],
+            [3, 10, 26, 7]
+        ];
+        let count=0;
+        for (let i = 0; i < arr3.length; i++) {
+            for (let j = 0; j < arr3[i].length; j++) {
+                if (typeof arr3[i][j]=='number'){
+                    document.write(arr3[i][j])
+                    count++;
+                    document.write(' count=' + count)
+                }
+               document.write('</br>')
+            }
+        }
+    </script>
+</body>
+</html>

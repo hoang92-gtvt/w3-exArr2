@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thay thế kí tự trong mảng</title>
+</head>
+<body>
+    <script>
+        let arr6= ['a', 'b', 'd', 'e', '-', '+']
+        console.log(arr6);
+        for (let i=0; i<arr6.length; i++) {
+
+            if (arr6[i] =='-'){
+
+                arr6[i]='_';
+                //break; nếu muốn thay thế 1 cái
+                // thay thế 2 cái thì kết hợp với 1 biến đếm
+                // hàm truyền vào sẽ có 2 tham số ()
+            }
+        }
+        console.log(arr6);
+    </script>
+</body>
+</html>

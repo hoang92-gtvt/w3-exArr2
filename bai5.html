@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra 2 chuỗi</title>
+</head>
+       <script>
+           let a=[1, 2, 3];
+           let b=[1,2,3];
+           document.write(a + '</br>');
+           document.write(b);
+           if (a.length !== b.length){
+               alert('mảng A Không giống mảng B')
+           }else {
+               let thongbao= true
+               for (let i = 0; i < a.length; i++) {
+                   if (a[i] !== b[i]) {
+                    thongbao=false;
+                   }
+               }
+               if (thongbao==true){
+                   alert('mảng A  giống mảng B')
+               }else alert('mảng A Không giống mảng B')
+           }
+       </script>
+<body>
+
+</body>
+</html>

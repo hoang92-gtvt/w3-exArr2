@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm số trong chuỗi</title>
+</head>
+<body>
+    <script>
+        let str4='hoang92codegym' ;
+        let arr4 =[];
+        let count=0;
+        let i=0;
+        for (const str4Element of str4) {
+            arr4[i] =str4Element;
+
+            let k= parseInt(arr4[i]);
+            if(!isNaN(k)){
+                count =count+1;
+            }
+            i++;
+        }
+        document.write('số lượng ký tự số trong chuỗi là' + count);
+
+    </script>
+
+</body>
+</html>
